@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                blue: '#5D5FEF',
+                black:'#A3A3A3',
+                fon: '#F6F6F6',
+              }
+            }
+          }
+        }
+      </script>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="py-5 border-b bg-fon ">
+    <div class="container  mx-auto max-w-[1200px] px-5 ">
+        <div class=" flex justify-between items-center">
+            <div class="left_nav gap-4">
+                <span class="bg-blue py-1 px-1 text-white text-base rounded">
+                    News
+                </span>
+                <span class="text-blue text-base ml-1">
+                    Portal
+                </span>
+            </div>
+            <div class="right_nav flex gap-6 items-center text-black ">
+                <a href="#" class="text-base hover:text-blue hover:border-b font-semibold ">News</a>
+                <a href="#" class="text-base hover:text-blue hover:border-b font-semibold">Blog</a>
+                <img src="./images/Avatar.svg" alt="">
+            </div>
+        </div>
+    </div>
+</nav>
+<main class="bg-fon ">
+<div class="container mx-auto max-w-[1200px] px-5">
+<div class="flex justify-between py-5 font-Roboto text-base text-black overflow-scroll lg:overflow-auto">
+    <a href="#"  class="hover:text-blue hover:bg-sky-50 text-nowrap   ">Home</a>
+    <a href="#" class="hover:text-blue hover:bg-sky-50 text-nowrap  ">Breaking news</a>
+    <a href="#" class="hover:text-blue hover:bg-sky-50 text-nowrap  ">Regular news</a>
+    <a href="#" class="hover:text-blue hover:bg-sky-50 text-nowrap  ">International news</a>
+    <a href="#" class="hover:text-blue hover:bg-sky-50 text-nowrap  ">Sports</a>
+    <a href="#" class="hover:text-blue hover:bg-sky-50 text-nowrap  ">Entertainment</a>
+    <a href="#" class="hover:text-blue hover:bg-sky-50 text-nowrap  ">Culture</a>
+    <a href="#" class="hover:text-blue hover:bg-sky-50 text-nowrap  ">Arts</a>
+    <a href="#" class="hover:text-blue hover:bg-sky-50 text-nowrap  ">All news</a>
+</div>
+  <div class="bg-white py-4 px-2 text-neutral-950 font-Roboto">
+    <p> 4 items found for category Entertainment</p>
+ </div>
+
+    <div class="flex justify-between py-7  items-center text-wrap" >
+        <div class="sec flex"><h5>Sort By View:</h5>
+<select class="ml-5 px-3 py-1 text-black text-xs rounded" >
+    <option value="Defoult" > Defoult</option>
+    <option value="Defoult"></option>
+    </select>
+    </div>
+<div class="btn ">
+    <button class="bg-blue text-white px-2 py-1 rounded ">Today’s Pick</button>
+    <button class=" text-blue border-2 px-2 py-1 rounded" >Trending</button>
+    </div>
+        </div>
+
+        <div class="flex py-7 bg-white rounded-lg text-wrap">
+            <div class="foto px-5 ">
+                <img src="./images/foto.svg" alt="">
+                </div>
+                <div class="info px-7">
+                    <h3 class="text-2xl text-slate-950 font-bold ">
+                        The best fashion influencers to follow for sartorial inspiration
+                        </h3>
+                        <p class="py-6 text-black">
+                            From our favourite UK influencers to the best missives from Milan and the coolest New Yorkers, read on some of the <br>best fashion blogs out there, and for even more inspiration, do head to our separate black fashion influencer round- <br>up.
+                            </p>
+                            <p class="text-black">
+                                Fancy some shopping deals? Check out these amazing sales: Zara Black Friday, ASOS Black Friday, Missoma Black <br> Friday and Gucci Black Friday... 
+                                </p>
+                                <div class="about flex justify-between  items-center  py-7 overflow-scroll overflow-auto">
+                                    <div class="logo flex"> <img src="./images/kichik.svg" alt="">
+                                        <div class="px-3">
+                                            <p>Jane Cooper</p>
+                                    <p class="text-black">Jan 10, 2022 </p></div>
+                                    
+                                    </div>
+                                    <div class="mmm flex">
+                                        <img src="./images/carbon_view.svg" alt="" class="px-3">
+                                        <b>1.5M</b>
+                                        </div>
+                                   
+                                        <div class="star flex gap-2">
+                                            <img src="./images/bxs_star-half.svg" alt="">
+                                            <img src="./images/Vector (1).svg" alt="">
+                                            <img src="./images/Vector (1).svg" alt="">
+                                            <img src="./images/Vector (1).svg" alt="">
+                                            <img src="./images/Vector (1).svg" alt="">
+                                            </div>
+                                            <div class="box">
+                                                <img src="./images/Group.svg" alt=""></div>
+                                    </div>
+                    </div>
+            </div>
+
+
+            <div class="flex py-7 bg-white rounded-lg my-6 ">
+            <div class="foto px-5">
+                <img src="./images/2222.svg" alt="">
+                </div>
+                <div class="info px-7">
+                    <h3 class="text-2xl text-slate-950 font-bold ">
+                        The best fashion influencers to follow for sartorial inspiration
+                        </h3>
+                        <p class="py-6 text-black text-base leading-6 sm:text-[12px]">
+                            From our favourite UK influencers to the best missives from Milan and the coolest New Yorkers, read on some of the <br>best fashion blogs out there, and for even more inspiration, do head to our separate black fashion influencer round- <br>up.
+                            </p>
+                            <p class="text-black ">
+                                Fancy some shopping deals? Check out these amazing sales: Zara Black Friday, ASOS Black Friday, Missoma Black <br> Friday and Gucci Black Friday... 
+                                </p>
+                                <div class="about flex justify-between  items-center  py-9 overflow-scroll overflow-auto">
+                                    <div class="logo flex"> <img src="./images/kichik.svg" alt="">
+                                   <div class="px-3"> <p>Jane Cooper</p>
+                                    <p class="text-black">Jan 10, 2022 </p></div>
+                                       
+                                    
+                                    </div>
+                                    <div class="mmm flex">
+                                        <img src="./images/carbon_view.svg" alt=""  class="px-3">
+                                        <b>1.5M</b>
+                                        </div>
+                                   
+                                        <div class="star flex gap-2">
+                                            <img src="./images/bxs_star-half.svg" alt="">
+                                            <img src="./images/Vector (1).svg" alt="">
+                                            <img src="./images/Vector (1).svg" alt="">
+                                            <img src="./images/Vector (1).svg" alt="">
+                                            <img src="./images/Vector (1).svg" alt="">
+                                            </div>
+                                            <div class="box">
+                                                <img src="./images/Group.svg" alt=""></div>
+                                    </div>
+                    </div>
+            </div>
+            
+            <div class="flex py-7 bg-white rounded-lg my-6 ">
+            <div class="foto px-5">
+                <img src="./images/444.svg" alt="">
+                </div>
+                <div class="info px-7">
+                    <h3 class="text-2xl text-slate-950 font-bold ">
+                        The best fashion influencers to follow for sartorial inspiration
+                        </h3>
+                        <p class="py-6 text-black text-base leading-6 w-full">
+                            From our favourite UK influencers to the best missives from Milan and the coolest New Yorkers, read on some of the <br>best fashion blogs out there, and for even more inspiration, do head to our separate black fashion influencer round- <br>up.
+                            </p>
+                            <p class="text-black">
+                                Fancy some shopping deals? Check out these amazing sales: Zara Black Friday, ASOS Black Friday, Missoma Black <br> Friday and Gucci Black Friday... 
+                                </p>
+                                <div class="about flex justify-between  items-center  py-9 overflow-scroll overflow-auto">
+                                    <div class="logo flex"> <img src="./images/kichik.svg" alt="">
+                                        <div class="px-3">
+                                            <p>Jane Cooper</p>
+                                    <p class="text-black">Jan 10, 2022 </p></div>
+                                    
+                                    
+                                    </div>
+                                    <div class="mmm flex">
+                                        <img src="./images/carbon_view.svg" alt=""  class="px-3">
+                                        <b>1.5M</b>
+                                        </div>
+                                   
+                                        <div class="star flex gap-2">
+                                            <img src="./images/bxs_star-half.svg" alt="">
+                                            <img src="./images/Vector (1).svg" alt="">
+                                            <img src="./images/Vector (1).svg" alt="">
+                                            <img src="./images/Vector (1).svg" alt="">
+                                            <img src="./images/Vector (1).svg" alt="">
+                                            </div>
+                                            <div class="box">
+                                                <img src="./images/Group.svg" alt=""></div>
+                                    </div>
+                    </div>
+            </div>
+            
+            <div class="flex py-7 bg-white rounded-lg my-6 ">
+            <div class="foto px-5">
+                <img src="./images/33333.svg" alt="">
+                </div>
+                <div class="info px-7">
+                    <h3 class="text-2xl text-slate-950 font-bold ">
+                        The best fashion influencers to follow for sartorial inspiration
+                        </h3>
+                        <p class="py-6 text-black text-base leading-6">
+                            From our favourite UK influencers to the best missives from Milan and the coolest New Yorkers, read on some of the <br>best fashion blogs out there, and for even more inspiration, do head to our separate black fashion influencer round- <br>up.
+                            </p>
+                            <p class="text-black">
+                                Fancy some shopping deals? Check out these amazing sales: Zara Black Friday, ASOS Black Friday, Missoma Black <br> Friday and Gucci Black Friday... 
+                                </p>
+                                <div class="about flex justify-between  items-center  py-9 overflow-scroll overflow-auto">
+                                    <div class="logo flex"> <img src="./images/kichik.svg" alt="">
+                                        <div class="px-3">
+                                            <p>Jane Cooper</p>
+                                    <p class="text-black">Jan 10, 2022 </p></div>
+                                    
+                                    </div>
+                                    <div class="mmm flex">
+                                        <img src="./images/carbon_view.svg" alt=""  class="px-3">
+                                        <b class="">1.5M</b>
+                                        </div>
+                                   
+                                        <div class="star flex gap-2">
+                                            <img src="./images/bxs_star-half.svg" alt="">
+                                            <img src="./images/Vector (1).svg" alt="">
+                                            <img src="./images/Vector (1).svg" alt="">
+                                            <img src="./images/Vector (1).svg" alt="">
+                                            <img src="./images/Vector (1).svg" alt="">
+                                            </div>
+                                            <div class="box">
+                                                <img src="./images/Group.svg" alt=""></div>
+                                    </div>
+                    </div>
+            </div>
+
+ </div>
+</main>
+<div class="container mx-auto max-w-[1200px]">
+    <footer class="flex justify-center py-3 my-6 text-black ">
+    <p>Copyright 2021 News Portal</p>
+    </footer></div>
+</body>
+</html>
